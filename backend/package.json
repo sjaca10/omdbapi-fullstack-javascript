@@ -1,0 +1,40 @@
+{
+  "name": "omdbapi-backend-nodejs",
+  "version": "1.0.0",
+  "description": "Backend nodejs application that store and response favourites movies from omdbapi.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaca10/omdbapi-fullstack-javascript.git"
+  },
+  "keywords": [
+    "omdbapi",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Javier Aguila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjaca10/omdbapi-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/sjaca10/omdbapi-fullstack-javascript#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0",
+    "mongodb": "^2.2.9",
+    "mongoose": "^4.6.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}

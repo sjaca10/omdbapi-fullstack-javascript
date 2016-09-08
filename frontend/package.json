@@ -1,0 +1,31 @@
+{
+  "name": "omdbapi-frontend-angularjs",
+  "version": "1.0.0",
+  "description": "Frontend angularjs application that connecto to omdbapi to show movies and to backend to store favourite movies\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaca10/omdbapi-fullstack-javascript.git"
+  },
+  "keywords": [
+    "omdbapi",
+    "angularjs",
+    "javascript"
+  ],
+  "author": "Javier Aguila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjaca10/omdbapi-fullstack-javascript/issues"
+  },
+  "homepage": "https://github.com/sjaca10/omdbapi-fullstack-javascript#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-watch": "^4.3.9"
+  }
+}
