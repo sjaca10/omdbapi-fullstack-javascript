@@ -20,3 +20,12 @@ In backend terminal:
 In frontend terminal:
 
     $ npm run dev
+
+## Documentation used
+* https://docs.angularjs.org/api
+* https://nodejs.org/es/docs/
+* http://expressjs.com/es/4x/api.html
+* https://egghead.io/
+* http://mongoosejs.com/docs/guide.html
+* http://passportjs.org/docs/basic-digest
+* https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
