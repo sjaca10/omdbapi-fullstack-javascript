@@ -121,7 +121,7 @@ angular.module('app', ['toaster', 'ngAnimate'])
             }).then(function success(response) {
                 toaster.pop('success', 'Fav movie', response.data.message);
             }, function error(response) {
-                toaster.pop('error', 'Fav movie');
+                toaster.pop('error', 'Fav movie', 'Please sign in');
             });
         }
 
